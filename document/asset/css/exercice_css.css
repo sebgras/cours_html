@@ -1,0 +1,11 @@
+p.rouge {
+    color: red
+}
+
+div.code, div.exemple {
+    font-family: 'Courier';
+}
+
+ol li {
+  background-color: yellow;  
+}

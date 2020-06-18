@@ -1,0 +1,17 @@
+ul {
+    color: blue;
+    background-color: #FF4040;
+    list-style-type: square;
+}
+
+li {
+    margin: 14px;
+}
+
+h1.titre {
+    font-style: italic;
+}
+
+#bold_italic {
+    color: orange;
+}
