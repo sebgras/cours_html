@@ -1,64 +1,99 @@
 <html>
 
 <head>
-    <title>Test de signets</title>
+    <title>TP HTML PAGE 2</title>
+    <link rel="stylesheet" href="./asset/css/tp.css" />
 </head>
 
 <body>
     <h1>TP HTML PAGE 2</h1>
 
-    <table width="100%">
-        <tr>
-            <td width="100%" colspan="2">Zone de menus principaux</td>
-        </tr>
-        <tr>
-            <td width="20%">Zone de menus secondaires</td>
-            <td width="80%">
-                <h3>Gallerie d'images</h3>
-
-                <table>
-                    <tr>
-                        <td>
-                            <a href="../document/asset/images/png/ballon.png" target="_blank">
-                                <img src="../document/asset/images/png/ballon.png" alt="marbres" width="50" height="50">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="../document/asset/images/png/cafe.png" target="_blank">
-                                <img src="../document/asset/images/png/cafe.png" alt="marbres" width="50" height="50">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="../document/asset/images/png/cheval.png" target="_blank">
-                                <img src="../document/asset/images/png/cheval.png" alt="marbres" width="50" height="50">
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="../document/asset/images/png/fleur.png" target="_blank">
-                                <img src="../document/asset/images/png/fleur.png" alt="marbres" width="50" height="50">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="../document/asset/images/png/montagne.png" target="_blank">
-                                <img src="../document/asset/images/png/montagne.png" alt="marbres" width="50" height="50">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="../document/asset/images/png/oiseau.png" target="_blank">
-                                <img src="../document/asset/images/png/oiseau.png" alt="marbres" width="50" height="50">
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-
     <p>
         <a href="tp.html">Lien vers la page 1</a>
     </p>
+
+    <div class="menus-left">Navigation
+        <ul class="menu-left">
+            <li><a href="#">Menu1</a></li>
+            <li><a href="#">Menu2</a></li>
+            <li><a href="#">Menu3</a></li>
+            <li><a href="#">Menu4</a></li>
+            <li><a href="#">Menu5</a></li>
+        </ul>
+    </div>
+    <div class="menus-top">
+        <header>
+            <nav>
+                <ul class="menu-top">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="services">
+                        <a href="#">Service</a>
+                        <ul class="sous-menu">
+                            <li>
+                                <a href="#">Serv1</a>
+                            </li>
+                            <li>
+                                <a href="#">Serv2</a>
+                            </li>
+                            <li>
+                                <a href="#">Serv3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Référence</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="content">
+
+        <h3>Gallerie d'images</h3>
+
+        <table>
+            <tr>
+                <td>
+                    <a href="../document/asset/images/png/ballon.png" target="_blank">
+                        <img src="../document/asset/images/png/ballon.png" alt="marbres" width="50" height="50">
+                    </a>
+                </td>
+                <td>
+                    <a href="../document/asset/images/png/cafe.png" target="_blank">
+                        <img src="../document/asset/images/png/cafe.png" alt="marbres" width="50" height="50">
+                    </a>
+                </td>
+                <td>
+                    <a href="../document/asset/images/png/cheval.png" target="_blank">
+                        <img src="../document/asset/images/png/cheval.png" alt="marbres" width="50" height="50">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="../document/asset/images/png/fleur.png" target="_blank">
+                        <img src="../document/asset/images/png/fleur.png" alt="marbres" width="50" height="50">
+                    </a>
+                </td>
+                <td>
+                    <a href="../document/asset/images/png/montagne.png" target="_blank">
+                        <img src="../document/asset/images/png/montagne.png" alt="marbres" width="50" height="50">
+                    </a>
+                </td>
+                <td>
+                    <a href="../document/asset/images/png/oiseau.png" target="_blank">
+                        <img src="../document/asset/images/png/oiseau.png" alt="marbres" width="50" height="50">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
 </body>
 
 </html>

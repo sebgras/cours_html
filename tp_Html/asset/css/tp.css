@@ -1,0 +1,137 @@
+h1 {
+    color:orange
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+a:visited {
+    color: magenta;
+}
+
+#main-title {
+    color: pink
+}
+
+.author {
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: bold;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+h2 + p {
+    font-weight: bold;
+}
+
+h3 + p {
+    font-weight: bold;
+}
+
+h4 + p {
+    font-weight: bold;
+}
+
+h5 + p {
+    font-weight: bold;
+}
+
+.author, .title {
+    color: blue;
+}
+
+.menus-left {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    width: 160px;
+    background-color: #6a6a6a;
+    border-top: 1px solid black;
+}
+
+.menus-top {
+    margin-left: 160px;
+    background-color: #6a6a6a;
+    border-top: 1px solid black;
+}
+
+.menu-top {
+    list-style-type: none;
+}
+
+.menu-top>li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+.menu-top>li:hover {
+    background-color: dimgrey;
+}
+
+.content {
+    margin-left: 160px;
+}
+
+.menu-left {
+    list-style-type: none;
+    padding-left: 0;
+}
+.menu-left>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+.menu-left>li:hover {
+    background-color: dimgrey;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+li>a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.services {
+    position: relative
+}
+
+.services:hover>.sous-menu {
+    max-height: 150px;
+}
+
+.sous-menu {
+    max-height: 0;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sous-menu>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: dimgrey;
+}

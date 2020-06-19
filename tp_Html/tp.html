@@ -1,7 +1,8 @@
 <html>
 
 <head>
-    <title>Test de signets</title>
+    <title>TP HTML PAGE 1</title>
+    <link rel="stylesheet" href="./asset/css/tp.css"/>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 
     <hr/>
 
-    <h2>Paragraphe 1</h2>
+    <h2 id="main-title">Paragraphe 1</h2>
     <p>
         <b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Pellentesque pretium id justo et pretium. Morbi
         rutrum, dolor nec ullamcorper volutpat, massa augue dictum lectus, sed lobortis nisl ex et mauris. Etiam
@@ -30,7 +31,7 @@
         at magna et ornare.
     </p>
 
-    <h3>Paragraphe 2</h3>
+    <h3 style="margin-left: 100px;">Paragraphe 2</h3>
     <p>
         <u>Morbi at tincidunt orci</u>. Praesent auctor maximus mi vitae imperdiet. Sed ultricies odio a finibus
         imperdiet.
@@ -42,7 +43,18 @@
         vitae accumsan feugiat. Phasellus nisl odio, dictum at gravida sed, tempus in felis.
     </p>
 
-    <h4>Paragraphe 3</h4>
+    <p>
+        (copie) Morbi at tincidunt orci. Praesent auctor maximus mi vitae imperdiet. Sed ultricies odio a finibus
+        imperdiet.
+        Phasellus eu nisl sed metus aliquet feugiat. Vivamus ultricies blandit neque. Proin vel risus sapien. Nunc
+        convallis eu mauris nec luctus. Fusce in ex quis sem venenatis cursus sit amet in felis. Nunc ac ante id
+        quam elementum consequat ut sed odio. Duis tincidunt sagittis metus, quis lobortis diam iaculis id. Proin
+        rutrum, lacus sed dictum lacinia, ante lectus elementum eros, nec accumsan nisi lacus sed mi. Aliquam
+        condimentum sed nunc sed egestas. Maecenas sit amet massa id eros imperdiet iaculis. Nunc vehicula dolor
+        vitae accumsan feugiat. Phasellus nisl odio, dictum at gravida sed, tempus in felis.
+    </p>
+
+    <h4 style="border: 1px solid green;">Paragraphe 3</h4>
     <p>
         <i>Sed elementum arcu nec porttitor molestie</i>. Pellentesque habitant morbi tristique senectus et netus et
         malesuada fames ac turpis egestas. Maecenas ac iaculis neque. Donec a velit commodo, malesuada ipsum ut,
@@ -54,7 +66,7 @@
         urna. Nulla aliquam vehicula tempor. Integer eget nisi ultrices orci finibus posuere a nec nunc.
     </p>
 
-    <h5>Paragraphe 4</h5>
+    <h5 style="color: red;">Paragraphe 4</h5>
     <p>
         Phasellus eget sollicitudin elit. Mauris et diam eros. Sed lacinia pretium lacinia. Sed ut dui eu dolor
         finibus cursus vitae a orci. Etiam tempor augue ac erat lacinia tristique. Pellentesque lacinia commodo
@@ -66,8 +78,19 @@
         varius ante.
     </p>
 
-    <h6>Paragraphe 5</h6>
     <p>
+        (copie) Phasellus eget sollicitudin elit. Mauris et diam eros. Sed lacinia pretium lacinia. Sed ut dui eu dolor
+        finibus cursus vitae a orci. Etiam tempor augue ac erat lacinia tristique. Pellentesque lacinia commodo
+        tortor vel aliquam. Vestibulum risus lectus, commodo et dui sed, vulputate dignissim nisl. Maecenas aliquet
+        ex porta sagittis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Ut lacinia leo nec nisl placerat fermentum. Quisque placerat, dolor nec eleifend laoreet, odio
+        sapien suscipit ligula, sit amet rhoncus nunc quam ac massa. Nullam vitae feugiat arcu, eu blandit diam.
+        Cras dictum gravida orci eget faucibus. In non maximus tellus. In semper pulvinar arcu quis egestas. Sed ac
+        varius ante.
+    </p>
+
+    <h6>Paragraphe 5</h6>
+    <p style="background-color: yellow; font-weight: bold;">
         Duis suscipit, est a tempus eleifend, ex eros feugiat augue, id elementum mauris odio eget mauris. Donec quis
         risus id leo pellentesque ullamcorper convallis eget lorem. Donec porta augue arcu, in fringilla risus
         auctor nec. In non dui eu eros sagittis varius. Sed id rutrum sapien. Sed sollicitudin neque id nibh
@@ -217,12 +240,45 @@
                 <td>
                     contenu 10
                 </td>
-                <td>
+                <td style="padding-left: 70px;">
                     contenu 11
                 </td>
             </tr>
         </table>
     </p>
+
+    <hr/>
+
+    <table>
+        <tr>
+            <th>Auteur</th>
+            <th>Titre</th>
+            <th>Année</th>
+        </tr>
+        <tr><td class="author">Victor Hugo</td><td class="title">Les Misérables</td><td>1862</td></tr>
+        <tr><td class="author">Victor Hugo</td><td class="title">Notre Dame de Paris</td><td>1831</td></tr>
+        <tr><td class="author">Victor Hugo</td><td class="title">Ruy Blas</td><td>1838</td></tr>
+        <tr><td class="author">Victor Hugo</td><td class="title">Les Châtiments</td><td>1853</td></tr>
+        <tr><td class="author">Victor Hugo</td><td class="title">Hernani</td><td>1830</td></tr>
+        <tr><td class="author">Honoré de Balzac</td><td class="title">Le père Goriot</td><td>1835</td></tr>
+        <tr><td class="author">Honoré de Balzac</td><td class="title">Le colonel Chabert</td><td>1832</td></tr>
+        <tr><td class="author">Honoré de Balzac</td><td class="title">La peau de chagrin</td><td>1831</td></tr>
+        <tr><td class="author">Emile Zola</td><td class="title">Germinal</td><td>1885</td></tr>
+        <tr><td class="author">Emile Zola</td><td class="title">La Bête humaine</td><td>1890</td></tr>
+        <tr><td class="author">Emile Zola</td><td class="title">L'Assommoir</td><td>1878</td></tr>
+        <tr><td class="author">Emile Zola</td><td class="title">Nana</td><td>1880</td></tr>
+        <tr><td class="author">Emile Zola</td><td class="title">Au Bonheur des dames</td><td>1883</td></tr>
+        <tr><td class="author">Emile Zola</td><td class="title">L'Argent</td><td>1891</td></tr>
+        <tr><td class="author">Gustave Flaubert</td><td class="title">Madame Bovary</td><td>1857</td></tr>
+        <tr><td class="author">Gustave Flaubert</td><td class="title">Salammbô</td><td>1862</td></tr>
+        <tr><td class="author">Gustave Flaubert</td><td class="title">L'éducation sentimentale</td><td>1869</td></tr>
+        <tr><td class="author">Gustave Flaubert</td><td class="title">Bouvard et Pécuchet</td><td>1881</td></tr>
+        <tr><td class="author">Stendhal</td><td class="title">Le rouge et le noir</td><td>1830</td></tr>
+        <tr><td class="author">Stendhal</td><td class="title">La chartreuse de Parme</td><td>1839</td></tr>
+    </table>
+
+    <hr/>
+
 
 
 </body>
