@@ -1,0 +1,33 @@
+.menu>li {
+    display: inline-block;
+}
+
+.menu>li:hover {
+    border-bottom: 4px solid #39cc;
+
+}
+
+.menu>li>a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sous-menu>li>a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.services {
+    position: relative
+}
+
+.services:hover>.sous-menu {
+    max-height: 150px;
+}
+
+.sous-menu {
+    max-height: 0;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}

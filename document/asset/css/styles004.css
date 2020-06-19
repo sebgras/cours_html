@@ -33,3 +33,11 @@ footer
     clear:both;
     background-color: #99FF66;
 }
+
+input[type=text]:focus {
+    background: red;
+}
+
+a:hover {
+    color:violet;
+}
