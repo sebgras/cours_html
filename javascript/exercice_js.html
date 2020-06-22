@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <script src="../document/asset/js/exercice_js.js"></script>
+    </head>
+    <body>
+        <p>
+            <h3>Tests d'écriture</h3>
+            Nombre : 
+            <script>
+                document.write(12);
+            </script>
+            <br/>
+
+            Phrase : 
+            <script>
+                document.write('Lorem Ipsum etc');
+            </script>
+            <br/>
+
+            Contenu de variable : 
+            <script>
+                var truc = 'toto'
+                document.write(truc);
+            </script>
+            <br/>
+
+            Valeur de pi : 
+            <script>
+                document.write(Math.PI);
+            </script>
+            <br/>
+
+            Entier aléatoire entre 0 et 100 : 
+            <script>
+                document.write(Math.floor(Math.random() * 100));
+            </script>
+            <br/>
+        </p>
+        <p>
+            <h3>nombres pairs ou impairs de 0 à 15</h3>
+            <script>pairOuImpair()</script>
+        </p>
+        <p>
+            <h3>Loterie</h3>
+            <button onclick="ajouterParticipant()">Ajouter nom</button>
+            <button onclick="tirageGagnant()">Tirage au sort</button>
+            <button onclick="initialiserListeParticipants()">Initialiser</button>
+        </p>
+    </body>
+</html>

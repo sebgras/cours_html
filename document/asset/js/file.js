@@ -53,6 +53,12 @@ function maFonction2() {
    }
    */
 
+   for(var i = 0; i < 10; i++) {
+    if(i%2 == 0) {
+        console.log(i);
+    }
+   }
+
 }
 maFonction2();
 
@@ -112,6 +118,6 @@ function greaterFiveNumbers(){
     if(nombre5 > nombreLePlusGrand) {
         nombreLePlusGrand = nombre5;
     }
-    
+
     alert(nombreLePlusGrand);
 }
