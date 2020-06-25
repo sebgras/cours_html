@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    background-color: rgb(217, 229, 240);
+}
+
+.presentation {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+
+.adress {
+    float: right;
+    text-align: right;
+    margin-top: 9em;
+}
+
+h4 {
+    background-color: rgb(217, 229, 240);
+    color: rgb(9, 88, 153);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.date-formation {
+    text-align: center;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.date-experience {
+    vertical-align: top;
+    text-align: left;
+    padding-right: 1em;
+}
+
+.xp-list {
+    list-style-type: '- ';
+    padding-left: 0;
+}

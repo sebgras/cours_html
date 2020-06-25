@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> jQuery test </title>
+    <link rel="stylesheet" href="./document/asset/css/exercice_jquery.css">
+</head>
+
+<body>
+
+    <!--
+    <div id=container>
+        Considerons les paragraphes suivants :
+        <p class=blue> bonjour </p>
+        <p class=red> bonsoir, voici <a href="http://www.
+        lsis.org/elmouelhia/"> ma page </a></p>
+        <p class="blue"> salut </p>
+    </div>
+    <input type=text id="nom" value="initial">
+    <button id=but> cliquer </button>
+    -->
+
+    <div id=paragraphs>
+        <p class=red>rouge</p>
+        <p class=green>vert</p>
+        <p class=blue>bleu</p>
+    </div>
+    <button id=but> cliquer </button>
+
+    
+    <h3><a href="#paragraphe1">Paragraphe 1</a></h3>
+    <h3><a href="#paragraphe2">Paragraphe 2</a></h3>
+    <h3><a href="#paragraphe3">Paragraphe 3</a></h3>
+    <h3><a href="#paragraphe4">Paragraphe 4</a></h3>
+    <h3><a href="#paragraphe5">Paragraphe 5</a></h3>
+
+
+    <a name="paragraphe1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium id justo et pretium. Morbi
+            rutrum, dolor nec ullamcorper volutpat, massa augue dictum lectus, sed lobortis nisl ex et mauris. Etiam
+            varius mi ac odio dapibus, a fringilla nibh dignissim. In molestie ipsum massa, et sodales orci blandit sed.
+            Proin non purus quis nibh tincidunt feugiat. Sed cursus, erat sed fringilla tincidunt, odio tortor rhoncus
+            nulla, id sodales enim eros nec metus. Etiam vestibulum magna quis felis commodo pulvinar. Nunc sed auctor
+            justo, et molestie est. Nulla vestibulum enim id rhoncus feugiat. Etiam aliquet, nisi lacinia vehicula
+            vulputate, elit velit varius libero, et venenatis mauris diam a nisl. Nunc non maximus nulla. Nullam tempus
+            at magna et ornare. </p>
+    </a>
+    <a name="paragraphe2">
+        <p>Morbi at tincidunt orci. Praesent auctor maximus mi vitae imperdiet. Sed ultricies odio a finibus imperdiet.
+            Phasellus eu nisl sed metus aliquet feugiat. Vivamus ultricies blandit neque. Proin vel risus sapien. Nunc
+            convallis eu mauris nec luctus. Fusce in ex quis sem venenatis cursus sit amet in felis. Nunc ac ante id
+            quam elementum consequat ut sed odio. Duis tincidunt sagittis metus, quis lobortis diam iaculis id. Proin
+            rutrum, lacus sed dictum lacinia, ante lectus elementum eros, nec accumsan nisi lacus sed mi. Aliquam
+            condimentum sed nunc sed egestas. Maecenas sit amet massa id eros imperdiet iaculis. Nunc vehicula dolor
+            vitae accumsan feugiat. Phasellus nisl odio, dictum at gravida sed, tempus in felis. </p>
+    </a>
+    <a name="paragraphe3">
+        <p>Sed elementum arcu nec porttitor molestie. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Maecenas ac iaculis neque. Donec a velit commodo, malesuada ipsum ut,
+            dictum diam. Duis quis neque lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus
+            at vulputate mi. Morbi tempus est feugiat, iaculis nisi sed, posuere nulla. Donec dictum velit vel
+            scelerisque pharetra. In convallis, urna eget lacinia maximus, massa tellus imperdiet dui, sit amet
+            sollicitudin massa dolor eget lectus. Aliquam felis justo, lobortis id semper pulvinar, ultrices sit amet
+            nisi. In facilisis, orci a iaculis dignissim, sapien lectus imperdiet enim, suscipit mollis elit velit ut
+            urna. Nulla aliquam vehicula tempor. Integer eget nisi ultrices orci finibus posuere a nec nunc. </p>
+    </a>
+    <a name="paragraphe4">
+        <p>Phasellus eget sollicitudin elit. Mauris et diam eros. Sed lacinia pretium lacinia. Sed ut dui eu dolor
+            finibus cursus vitae a orci. Etiam tempor augue ac erat lacinia tristique. Pellentesque lacinia commodo
+            tortor vel aliquam. Vestibulum risus lectus, commodo et dui sed, vulputate dignissim nisl. Maecenas aliquet
+            ex porta sagittis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos. Ut lacinia leo nec nisl placerat fermentum. Quisque placerat, dolor nec eleifend laoreet, odio
+            sapien suscipit ligula, sit amet rhoncus nunc quam ac massa. Nullam vitae feugiat arcu, eu blandit diam.
+            Cras dictum gravida orci eget faucibus. In non maximus tellus. In semper pulvinar arcu quis egestas. Sed ac
+            varius ante. </p>
+    </a>
+    <a name="paragraphe5">
+        <p>Duis suscipit, est a tempus eleifend, ex eros feugiat augue, id elementum mauris odio eget mauris. Donec quis
+            risus id leo pellentesque ullamcorper convallis eget lorem. Donec porta augue arcu, in fringilla risus
+            auctor nec. In non dui eu eros sagittis varius. Sed id rutrum sapien. Sed sollicitudin neque id nibh
+            bibendum venenatis. Duis gravida tortor ipsum, at ultricies nunc tristique vitae. Proin et sapien vel ipsum
+            ultrices volutpat. Cras nulla tellus, placerat et congue sed, cursus vitae libero. Nam porta auctor
+            venenatis. Maecenas efficitur libero ut sapien iaculis gravida. Vestibulum ut efficitur ex. Praesent
+            fringilla luctus rutrum. Nullam lacus justo, fermentum et volutpat non, consequat eget sem. </p>
+    </a>
+
+
+    <h3><a href="#top">Haut de page</a></h3>
+    
+    <script src="./document/asset/js/jquery-3.5.1.min.js"></script>
+    <script src="./document/asset/js/exercice_jquery.js">
+        // script.js fichier contenant les scripts qui utiliseront la librairie jQuery
+    </script>
+</body>
+
+</html>
